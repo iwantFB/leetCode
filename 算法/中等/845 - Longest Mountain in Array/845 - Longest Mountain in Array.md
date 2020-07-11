@@ -1,3 +1,6 @@
+## 845 - Longest Mountain in Array
+先获取 山峰 ，即获取 A[i - 1] < A[i] > A[i + 1] 中的i的值，然后遍历山峰，统计山峰两侧的长度，选取最大值
+
 ```
     func longestMountain(_ A: [Int]) -> Int {
         
